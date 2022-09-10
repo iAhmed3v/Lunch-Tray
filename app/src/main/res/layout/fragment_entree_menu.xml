@@ -58,7 +58,6 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["cauliflower"].name}'
-                    android:onClick="@{() -> viewModel.setEntree()"
                     tools:text="Entree 1" />
 
                 <TextView
@@ -89,7 +88,6 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["chili"].name}'
-                    android:onClick="@{() -> viewModel.setEntree()"
                     tools:text="Entree 2" />
 
                 <TextView
@@ -120,7 +118,6 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["pasta"].name}'
-                    android:onClick="@{() -> viewModel.setEntree()"
                     tools:text="Entree 3" />
 
                 <TextView
@@ -151,7 +148,6 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["skillet"].name}'
-                    android:onClick="@{() -> viewModel.setEntree()"
                     tools:text="Entree 4" />
 
                 <TextView

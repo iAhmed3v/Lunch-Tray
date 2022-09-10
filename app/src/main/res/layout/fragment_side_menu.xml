@@ -58,7 +58,6 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["salad"].name}'
-                    android:onClick="@{() -> viewModel.setSide()"
                     tools:text="Side 1" />
 
                 <TextView
@@ -89,7 +88,6 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["soup"].name}'
-                    android:onClick="@{() -> viewModel.setSide()"
                     tools:text="Side 2" />
 
                 <TextView
@@ -121,7 +119,6 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["potatoes"].name}'
-                    android:onClick="@{() -> viewModel.setSide()"
                     tools:text="Side 3" />
 
                 <TextView
@@ -152,7 +149,6 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["rice"].name}'
-                    android:onClick="@{() -> viewModel.setSide()"
                     tools:text="Side 4" />
 
                 <TextView
